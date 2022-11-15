@@ -8,6 +8,7 @@ import RecentActivities from './RecentActivities';
 import scrollreveal from 'scrollreveal';
 import NoticeBoard from './NoticeBoard';
 import MyNotes from './MyNotes';
+import Profile from './Profile';
 export default function Dashboard() {
   useEffect(() => {
     const sr = scrollreveal({
@@ -43,6 +44,7 @@ export default function Dashboard() {
           </div>
         </div>
         <Footer />
+        <Profile />
       </Section>
   );
 }
